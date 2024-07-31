@@ -1,0 +1,13 @@
+{
+    "tasks": {
+        "build": "deno run --allow-read --allow-ffi --allow-write --allow-env ../superimg/superimg.ts build"
+    },
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "react"
+    },
+    "imports": {
+        "react": "npm:react",
+        "@types/react": "npm:@types/react"
+    }
+}
